@@ -1,23 +1,22 @@
 .lead__image {
-  /* margin: 0 100px; */
   margin: 0 calc((100% - 984px)/2);
-  background: url(../../../images/route.svg) center / cover no-repeat;
+  background: center / cover no-repeat;
   width: 984px;
   height: 615px;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1136px) {
   .lead__image {
     margin: 0 calc((100% - 928px)/2);
     width: 928px;
     height: 580px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    /* margin: 0; */
-    width: 100%;
   }
 }
