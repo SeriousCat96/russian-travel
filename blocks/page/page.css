@@ -13,17 +13,4 @@
   margin: 0 auto;
   background-color: #2a2c2f;
   font-family: 'Inter', sans-serif;
-  padding: 0 48px 0 48px;
-}
-
-@media screen and (max-width: 425px) {
-  .page {
-    padding: 0 16px 0 16px;
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 1024px) {
-  .page {
-    padding: 0 24px 0 24px;
-  }
 }
