@@ -9,6 +9,9 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   align-items: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
   height: 52px;
   margin: 28px 48px 0 48px;
 }
