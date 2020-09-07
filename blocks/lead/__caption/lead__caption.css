@@ -10,4 +10,23 @@
   text-transform: uppercase;
   align-self: start;
   text-align: left;
+  margin-top: 8px 0 0 calc((100% - 984px)/2);
+}
+
+@media screen and (max-width: 1080px) {
+  .lead__caption {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
