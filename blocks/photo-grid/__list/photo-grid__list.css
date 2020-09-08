@@ -10,3 +10,13 @@
   grid-template-rows: repeat(3, 213px);
   gap: 16px 16px;
 }
+
+@media screen and (max-width: 1200px) {
+  .photo-grid__list {
+    -ms-grid-columns: 300px 300px 300px;
+    grid-template-columns: repeat(3, 300px);
+    -ms-grid-rows: 225px 225px 225px 225px;
+    grid-template-rows: repeat(4, 225px);
+    gap: 14px 14px;
+  }
+}
