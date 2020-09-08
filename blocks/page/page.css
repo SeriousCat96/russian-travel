@@ -13,6 +13,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-width: 320px;
+  width: 100%;
   background-color: #2a2c2f;
   color: white;
   font-family: 'Inter', sans-serif;
