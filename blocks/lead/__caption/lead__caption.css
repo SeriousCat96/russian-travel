@@ -12,7 +12,7 @@
   -ms-grid-row-align: start;
   align-self: start;
   text-align: left;
-  margin-left: 0;
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 768px) {
