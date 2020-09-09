@@ -3,26 +3,28 @@
   height: 460px;
   grid-column: 1;
   grid-row: 2;
+  justify-self: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .places__image {
     width: 440px;
     height: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .places__image {
     width: 340px;
     height: 340px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .places__image {
     grid-row: 2;
-    width: 320px;
-    height: 320px;
+    width: 440px;
+    max-width: 100%;
+    height: auto;
   }
 }
