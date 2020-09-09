@@ -3,5 +3,23 @@
   height: 740px;
   background: url(../../images/cover-trains.jpg) center / cover no-repeat;
   margin-top: 92px;
-  /* position: relative; */
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  background-color: #2a2c2f;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .3;
+  transition: opacity .25s;
+}
+
+@media screen and (min-width: 1024px) {
+  .cover:hover::before {
+    opacity: .8;
+  }
 }

@@ -1,10 +1,10 @@
 .cover__subtitle {
+  display: inline-block;
   padding: 0;
   margin: 0;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
-  z-index: 1;
   max-width: 360px;
-  position: relative;
+  z-index: 1;
 }
