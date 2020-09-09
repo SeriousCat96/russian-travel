@@ -1,5 +1,5 @@
 .cover {
-  width: 100%;
+  width: 1184px;
   height: 740px;
   background: url(../../images/cover-trains.jpg) center / cover no-repeat;
   margin-top: 92px;
@@ -23,3 +23,11 @@
     opacity: .8;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+
