@@ -5,4 +5,11 @@
   line-height: 1.22px;
   text-decoration-line: underline;
   color: white;
+  transition: opacity ease-out .5s;
+}
+
+@media screen and (min-width: 1024px) {
+  .places__link:hover {
+    opacity: .8;
+  }
 }
