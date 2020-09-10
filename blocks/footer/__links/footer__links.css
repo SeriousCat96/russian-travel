@@ -1,0 +1,17 @@
+.footer__links {
+  padding: 0;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(min-content, max-content)
+                    minmax(min-content, max-content)
+                    minmax(min-content, max-content)
+                    minmax(min-content, max-content)
+                    minmax(min-content, max-content);
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -webkit-column-gap: 18px;
+  -moz-column-gap: 18px;
+  column-gap: 18px;
+}
