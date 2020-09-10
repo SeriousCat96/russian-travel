@@ -12,7 +12,26 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 1080px) {
+  .lead {
+    margin: 48px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 48px calc((100% - 928px) / 2) 0 calc((100% - 928px) / 2);
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead {
+     margin: 48px 0 0 0;
+  }
 }

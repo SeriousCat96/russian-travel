@@ -12,21 +12,23 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
   margin-top: 92px;
+}
+
+@media screen and (max-width: 1080px) {
+  .photo-grid {
+    margin: 92px 48px 0 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    margin-top: 88px;
-    padding: 0 24px;
-    box-sizing: border-box;
+    margin: 88px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
-    margin-top: 64px;
-    padding: 0 16px;
+    margin: 88px 16px 0 16px;
   }
 }

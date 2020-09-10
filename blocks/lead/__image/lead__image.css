@@ -3,3 +3,15 @@
   max-width: 100%;
   height: auto;
 }
+
+/* @media screen and (max-width: 816px){
+  .lead__image {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead__image {
+    margin: 0;
+  }
+} */
