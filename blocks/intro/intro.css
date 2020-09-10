@@ -1,25 +1,24 @@
 .intro {
   -ms-flex-item-align: start;
-  -ms-grid-row-align: start;
-  align-self: start;
+  align-self: flex-start;
   text-align: left;
   margin: 92px calc((100% - 984px) / 2) 0 calc((100% - 984px) / 2);
 }
 
 @media screen and (max-width: 1080px){
   .intro {
-    margin: 92px 0 0 0;
+    margin: 92px 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-top: 88px;
+    margin: 88px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
-    margin-top: 64px;
+    margin: 64px 16px 0 16px;
   }
 }

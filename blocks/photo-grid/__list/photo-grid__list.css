@@ -36,10 +36,10 @@
 
 @media screen and (max-width: 767px) {
   .photo-grid__list {
-    -ms-grid-columns: 288px;
-    grid-template-columns: 288px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px;
-    grid-template-rows: repeat(12, 216px);
+    grid-template-rows: repeat(12, minmax(min-content, max-content));
     grid-auto-rows: 288px 216px;
     gap: 12px 12px;
   }

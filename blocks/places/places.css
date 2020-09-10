@@ -17,21 +17,18 @@
 
 @media screen and (max-width: 1080px) {
   .places {
-    margin: 92px 0 0 0;
+    margin: 92px 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    margin-top: 88px;
-    padding: 0 24px;
-    box-sizing: border-box;
+    margin: 88px 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
-    margin-top: 64px;
-    padding: 0;
+    margin: 88px 0 0 0;
   }
 }
