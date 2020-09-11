@@ -12,7 +12,6 @@
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch;
-  height: 52px;
   max-width: 1184px;
   width: 100%;
   margin: 28px auto 0 auto;
@@ -33,7 +32,6 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    height: 42px;
     margin: 16px 16px 0 16px;
   }
 }
