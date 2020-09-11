@@ -1,4 +1,4 @@
-.places__link {
+.card__link {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .places__link:hover {
+  .card__link:hover {
     opacity: .8;
   }
 }

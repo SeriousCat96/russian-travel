@@ -5,7 +5,7 @@
 
 Какие технологии используются:
 * HTML5;
-* CSS (flexbox, grid, адаптивная вёрстка);
+* CSS (flexbox, grid, адаптивная вёрстка, загрузка собственных шрифтов);
 * Структура проекта организована согласно [БЭМ](https://ru.bem.info/).
 
 Сайт опубликован на [GitHub Pages](https://seriouscat96.github.io/russian-travel/).
