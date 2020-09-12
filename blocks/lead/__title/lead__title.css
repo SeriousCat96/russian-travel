@@ -29,5 +29,12 @@
   .lead__title {
     margin: 0 16px 16px 16px;
     font-size: 40px;
+    max-width: 79%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__title {
+    max-width: 90%;
   }
 }
