@@ -53,7 +53,13 @@
 
 @media screen and (max-width: 425px) {
   .photo-grid__list {
-    gap: 12px 0;
+    gap: 16px 0;
     margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .photo-grid__list {
+    gap: 8px 0;
   }
 }

@@ -5,7 +5,14 @@
   list-style: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 13px;
+  line-height: 1.54;
   margin-top: 32px;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 1.58;
+  }
 }
