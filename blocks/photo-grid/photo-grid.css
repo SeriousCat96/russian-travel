@@ -17,19 +17,19 @@
 
 @media screen and (max-width: 1080px) {
   .photo-grid {
-    margin: 92px 48px 0 48px;
+    margin: 92px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
     width: 100%;
-    margin: 88px 24px 0 24px;
+    margin: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
-    margin: 88px 16px 0 16px;
+    margin: 88px 16px 0;
   }
 }

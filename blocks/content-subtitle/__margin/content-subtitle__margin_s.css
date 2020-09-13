@@ -1,0 +1,15 @@
+.content-subtitle__margin_s {
+  margin: 0 64px 72px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content-subtitle__margin_s {
+    margin: 0 0 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content-subtitle__margin_s {
+    margin: 0 0 24px;
+  }
+}

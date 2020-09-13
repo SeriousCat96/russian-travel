@@ -1,4 +1,4 @@
-.video {
+.comments {
   display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,29 +9,24 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
+  justify-content: stretch;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 102px;
   max-width: 1184px;
   width: 100%;
+  margin-top: 102px;
 }
 
-@media screen and (max-width: 1280px) {
-  .video {
+@media screen and (max-width: 1279px) {
+  .comments {
+    width: auto;
     margin: 102px 48px 0;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .video {
-    margin: 95px 24px 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .video {
+@media screen and (max-width: 425px) {
+  .comments {
     margin: 64px 16px 0;
-    width: auto;
   }
 }

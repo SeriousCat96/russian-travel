@@ -56,7 +56,7 @@ li:last-child .video__item {
 @media screen and (max-width: 767px) {
   .video__item {
     flex-direction: column;
-    width: 352px;
+    width: 393px;
     height: 200px;
     margin: 0 0 8px;
   }
@@ -66,10 +66,16 @@ li:last-child .video__item {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
+  .video__item {
+    width: 352px;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 407px) {
   .video__item {
     width: 343px;
-    height: 200px;
     padding: 24px;
   }
 }

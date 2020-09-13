@@ -4,7 +4,8 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0 24px;
+  align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
